@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Open: "Open Sans", sans-serif;
+  --font-Display: "DM Serif Display", serif;
+  --container-container : 1392px;
+  --width-48: 48%;
+  --width-32: 32%;
+  --width-19: 19%;
+  --text-40: 40px;
+  --color-background: #091030;
+  --color-background-second: #0B143C;
+  --color-background-light: #1F274C;
+  --color-border: #3A4059;
+  --color-hover-color: #8698EB;
+  --color-button-color: #3554DE;
+}
