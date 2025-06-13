@@ -27,81 +27,113 @@
 </head>
 <body class="m-0 p-0">
   <!-- Hero Section Start -->
-  <section class="relative min-h-screen bg-[url('../img/hero-bg.png')] bg-cover bg-center">
+  <section class="relative min-h-screen w-full bg-[url('../img/hero-bg.png')] bg-cover bg-center">
     <div class="absolute inset-0 bg-gradient-to-t from-[#091030]/100 to-[#091030]/30 z-0"></div>
     <div class="relative z-10">
-      <div class="w-container mx-auto lg:container lg:mx-auto">
-        <nav class="py-5 flex justify-between items-center border-b border-b-gray-600">
-          <ul class="flex space-x-10">
-            <li><a href="#" class="text-lg text-white hover:text-hover-color">Services</a></li>
-            <li><a href="#" class="text-lg text-white hover:text-hover-color">About Us</a></li>
-            <li><a href="#" class="text-lg text-white hover:text-hover-color">Work</a></li>
-            <li><a href="#" class="text-lg text-white hover:text-hover-color">Blog</a></li>
-          </ul>
-          <a href="#">
-            <img src="./img/Logo.png" alt="">
-          </a>
-          <button class="py-2 px-7 text-white bg-button-color border border-button-color rounded-full cursor-pointer hover:bg-transparent hover:text-button-color">
-            Speak to an expert <i class="fa-solid fa-arrow-right ml-2"></i>
-          </button>
-        </nav>
-        <div class="h-screen flex flex-col justify-center items-center ">
-          <div class="flex items-center">
-            <div class="flex justify-center items-center relative z-0">
-              <div class="absolute w-10 h-10 -left-1">
-                <img src="./img/brand-1.png" alt="">
+      <div class="xl:w-container xl:mx-auto container mx-auto">
+          <nav class="py-5 flex justify-between items-center border-b border-b-gray-600 relative px-3 xl:px-0">
+            <ul class="absolute bg-background h-screen p-5 top-20 left-0 z-20 hidden lg:flex lg:bg-transparent lg:space-x-10 lg:h-auto lg:top-0 lg:left-0 lg:p-0 lg:relative" id="menu">
+              <li class="border-b border-b-gray-600 py-3 lg:border-0"><a href="#" class="text-xl text-white hover:text-hover-color">Services</a></li>
+              <li class="border-b border-b-gray-600 py-3 lg:border-0"><a href="#" class="text-xl text-white hover:text-hover-color">About Us</a></li>
+              <li class="border-b border-b-gray-600 py-3 lg:border-0"><a href="#" class="text-xl text-white hover:text-hover-color">Work</a></li>
+              <li class="border-b border-b-gray-600 py-3 lg:border-0"><a href="#" class="text-xl text-white hover:text-hover-color">Blog</a></li>
+              <div class="bg-gradient-to-br from-[#7086E9] to-[#3351FE] p-5 rounded-2xl mt-5 text-center lg:hidden">
+                <p class="text-lg text-white text-center">Unlock up to +30% higher engagement in 6 months with our detailed UX/UI Audit Services</p>
+                <button class="mt-5 py-2 px-7 text-background bg-white border border-button-color rounded-full cursor-pointer hover:bg-transparent hover:text-button-color">
+                  Speak to an expert <i class="fa-solid fa-arrow-right ml-2"></i>
+                </button>
               </div>
-              <div class="z-10">
-                <img class="w-full" src="./img/brand-2.png" alt="">
+            </ul>
+            <a href="#">
+              <img src="./img/Logo.png" alt="">
+            </a>
+            <button class="py-2 px-7 text-white bg-button-color border border-button-color rounded-full cursor-pointer hover:bg-transparent hover:text-button-color hidden lg:block">
+              Speak to an expert <i class="fa-solid fa-arrow-right ml-2"></i>
+            </button>
+            <a href="#" class="cursor-pointer text-white lg:hidden" id="menu-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" /></svg>
+            </a>
+          </nav>
+          <div class="mt-32 flex flex-col justify-center items-center mx-3">
+            <div class="flex items-center">
+              <div class="flex justify-center items-center relative z-0">
+                <div class="absolute w-10 h-10 -left-1">
+                  <img src="./img/brand-1.png" alt="">
+                </div>
+                <div class="z-10">
+                  <img class="" src="./img/brand-2.png" alt="">
+                </div>
               </div>
+              <span class="text-white text-xl font-medium">
+                5.0
+              </span>
+              <span class="mx-2">
+                <i class="fa-solid fa-star text-orange-400"></i>
+              </span>
+              <span class="text-white">
+                Based on 26 Clutch review
+              </span>
             </div>
-            <span class="text-white text-xl font-medium">
-              5.0
-            </span>
-            <span class="mx-2">
-              <i class="fa-solid fa-star text-orange-400"></i>
-            </span>
-            <span class="text-white">
-              Based on 26 Clutch review
-            </span>
+            <h1 class="text-4xl md:text-6xl lg:text-8xl text-center text-white font-Open"><span class="font-Display">Dubai</span> Design & <br> Development <span class="font-Display">Agency</span></h1>
+            <p class="pt-6 pb-12 text-white text-center font-Open capitalize">Musemind is a global leader in UX and web design, redefining the future of digital <br> interaction and empowering brands to scale with purpose and impact.</p>
+            <button class="py-2 px-7 text-white bg-button-color border border-button-color rounded-full cursor-pointer hover:bg-transparent hover:text-white">
+              Schedule A Call <i class="fa-solid fa-arrow-right ml-2"></i>
+            </button>
           </div>
-
-          <h1 class="text-8xl text-center text-white font-Open"><span class="font-Display">Dubai</span> Design & <br> Development <span class="font-Display">Agency</span></h1>
-          <p class="pt-6 pb-12 text-white text-center text-lg font-Open capitalize">Musemind is a global leader in UX and web design, redefining the future of digital <br> interaction and empowering brands to scale with purpose and impact.</p>
-          <button class="py-2 px-7 text-white bg-button-color border border-button-color rounded-full cursor-pointer hover:bg-transparent hover:text-white">
-            Schedule A Call <i class="fa-solid fa-arrow-right ml-2"></i>
-          </button>
-        </div>
       </div>
     </div>
   </section>
   <!-- Hero Section End -->
 
   <!-- Brand Section Start -->
-  <section class="bg-background py-28">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
+  <section class="bg-background py-28 px-3 xl:px-0">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
       <h5 class="text-white">TRUSTED BY 200+ GLOBAL BRANDS</h5>
-      <div class="py-5 flex justify-between items-center mt-10 border-t border-t-border border-b border-b-border">
-        <div>
-          <img src="./img/agency-1.png" alt="">
-        </div>
-        <div>
-          <img src="./img/agency-2.png" alt="">
-        </div>
-        <div>
-          <img src="./img/agency-3.png" alt="">
-        </div>
-        <div>
-          <img src="./img/agency-4.png" alt="">
-        </div>
-        <div>
-          <img src="./img/agency-5.png" alt="">
-        </div>
-        <div>
-          <img src="./img/agency-6.png" alt="">
-        </div>
-        <div>
-          <img src="./img/agency-7.png" alt="">
+      <div class="swiper myBrand border-t border-t-border border-b border-b-border mt-10">
+        <div class="swiper-wrapper py-5 flex justify-between items-center">
+          <div class="swiper-slide">
+            <img src="./img/agency-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-3.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-4.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-5.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-6.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-7.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-3.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-4.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-5.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-6.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/agency-7.png" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -109,14 +141,14 @@
   <!-- Brand Section End -->
 
   <!-- About Section Start -->
-  <section class="bg-background pb-28">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
-      <div class="flex items-start">
-        <div class="w-1/2">
+  <section class="bg-background pb-28 px-3 xl:px-0">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
+      <div class="lg:flex lg:items-start">
+        <div class="lg:w-1/2 mb-10">
           <h3 class="text-2xl text-white">About</h3>
         </div>
-        <div class="w-1/2">
-          <h1 class="text-7xl text-white capitalize font-Open font-medium">Enabling <span class="font-Display font-normal">innovation, Crafting</span> impactful experiences</h1>
+        <div class="lg:w-1/2">
+          <h1 class="text-4xl lg:text-7xl text-white capitalize font-Open font-medium">Enabling <span class="font-Display font-normal">innovation, Crafting</span> impactful experiences</h1>
           <p class="text-white py-10">At Musemind, we believe that great design isn’t just seen—it’s felt. As a global UX and web design agency, we specialize in turning complex ideas into seamless, human-centered digital experiences.</p>
           <p class="text-white pb-10">We partner with forward-thinking brands to enable innovation through strategy-led design and emerging technology, pushing boundaries to shape the future of digital interaction. Our team blends creativity with functionality to craft impactful experiences that resonate, engage, and drive measurable results.</p>
           <button class="py-2 px-7 text-white bg-button-color border border-button-color rounded-full cursor-pointer hover:bg-transparent hover:text-button-color">
@@ -124,8 +156,8 @@
           </button>
         </div>
       </div>
-      <div class="mt-20 flex justify-between items-center border-l border-l-border pl-5">
-        <div class="flex flex-col justify-items-start">
+      <div class="mt-20 flex flex-wrap items-center">
+        <div class="flex flex-col justify-items-start border-l border-l-border pl-5 w-full mb-5 sm:w-48 lg:w-24 lg:mb-0">
           <div class="flex items-start mb-20">
             <h1 class="text-8xl text-white">60</h1>
             <div class="flex flex-col ml-3">
@@ -135,7 +167,7 @@
           </div>
           <span class="text-white">Team Members</span>
         </div>
-        <div class="flex flex-col justify-items-start border-l border-l-border pl-5">
+        <div class="flex flex-col justify-items-start border-l border-l-border pl-5 w-full mb-5 sm:w-48 lg:w-24 lg:mb-0">
           <div class="flex items-start mb-20">
             <h1 class="text-8xl text-white">4</h1>
             <div class="flex flex-col ml-3">
@@ -145,7 +177,7 @@
           </div>
           <span class="text-white">of Services</span>
         </div>
-        <div class="flex flex-col justify-items-start border-l border-l-border pl-5">
+        <div class="flex flex-col justify-items-start border-l border-l-border pl-5 w-full mb-5 sm:w-48 lg:w-24 lg:mb-0">
           <div class="flex items-start mb-20">
             <h1 class="text-8xl text-white">5</h1>
             <div class="flex flex-col ml-3">
@@ -155,7 +187,7 @@
           </div>
           <span class="text-white">Location</span>
         </div>
-        <div class="flex flex-col justify-items-start border-l border-l-border pl-5">
+        <div class="flex flex-col justify-items-start border-l border-l-border pl-5 w-full mb-5 sm:w-48 lg:w-24 lg:mb-0">
           <div class="flex items-start mb-20">
             <h1 class="text-8xl text-white">260</h1>
             <div class="flex flex-col ml-3">
@@ -172,14 +204,14 @@
 
   <!-- Feature Section Start -->
   <section class="bg-background">
-    <div class="bg-background-second rounded-3xl py-28">
-      <div class="w-container mx-auto lg:container lg:mx-auto">
+    <div class="bg-background-second rounded-3xl py-28 px-3 xl:px-0">
+      <div class="xl:w-container xl:mx-auto container mx-auto">
         <div class="mb-20">
-          <h1 class="text-7xl font-Open text-center text-white font-bold mb-3">Our <span class="font-Display font-normal">Featured</span> Work</h1>
+          <h1 class="text-4xl lg:text-7xl font-Open text-center text-white font-bold mb-3">Our <span class="font-Display font-normal">Featured</span> Work</h1>
           <p class="text-white text-center ">A Majestic Showcase of Unrivaled Excellence: Where Vision Meets Mastery, Innovation <br> Shapes Possibility, and Every Detail Tells a Story of Timeless Brilliance</p>
         </div>
         <div class="mb-20">
-          <div class="h-[790px] overflow-y-auto no-scrollbar space-y-6">
+          <div class="h-70 md:h-[410px] lg:h-[533px] xl:!h-[790px] overflow-y-auto no-scrollbar space-y-6">
             <div class="sticky top-0 rounded-4xl shadow-2xl shadow-background">
               <img class="w-full" src="./img/slider-img.png" alt="">
             </div>
@@ -205,13 +237,12 @@
 
   <!-- Creating Section Start -->
   <section class="py-28 bg-background">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
       <div class="mb-20">
-        <h1 class="text-7xl font-medium text-white text-center">Creating <span class="font-Display">Value Through <br> Insight</span> & Execution</h1>
+        <h1 class="text-4xl lg:text-7xl font-medium text-white text-center">Creating <span class="font-Display">Value Through <br> Insight</span> & Execution</h1>
       </div>
-      <div class="flex text-white">
-        <!-- Left Menu -->
-        <div class="w-1/2 py-10 px-6 space-y-6 text-lg">
+      <div class="lg:flex text-white">
+        <div class="lg:w-1/2 py-10 px-6 space-y-6 text-lg">
           <div class="text-white text-2xl hover:text-blue-400 cursor-pointer">Design</div>
           <div class="text-white text-2xl bg-blue-600 py-1 px-3 rounded-full w-fit">Development</div>
           <div class="text-white text-2xl hover:text-blue-400 cursor-pointer">E-Commerce</div>
@@ -219,17 +250,14 @@
           <div class="text-white text-2xl hover:text-blue-400 cursor-pointer">Marketing</div>
         </div>
     
-        <!-- Right Content -->
-        <div class="w-1/2 py-10 px-6">
+        <div class="lg:w-1/2 py-10 px-6">
           <div class="bg-[#1c2240] rounded-xl p-6 mb-8 shadow-lg">
             <h2 class="text-2xl font-semibold mb-2">Custom Web App Development</h2>
             <p class="text-gray-300 text-sm">Our Custom Web App Development services revolve around the agile development process. With this approach, our skilled developers work in tandem.</p>
             <a href="#" class="inline-flex items-center text-sm mt-3 text-blue-400 hover:underline">Explore More →</a>
           </div>
     
-          <!-- Accordion Items -->
           <div class="space-y-4" id="accordion">
-            <!-- Accordion Item Template -->
             <div class="border-t border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
                 <span class="text-2xl font-semibold">PWA Development</span>
@@ -292,18 +320,18 @@
   <!-- Creating Section End -->
 
   <!-- Future Section Start -->
-  <section class="relative min-h-screen bg-[url('../img/future-bg.png')] bg-cover bg-center py-28">
+  <section class="relative min-h-screen bg-[url('../img/future-bg.png')] bg-cover bg-center py-28 px-3 xl:px-0">
     <div class="absolute inset-0 bg-background/50 z-0"></div>
-    <div class="w-container mx-auto lg:container lg:mx-auto">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
     <div class="relative z-10">
       <div class="mb-20">
-        <h1 class="text-7xl font-Open text-center text-white font-bold mb-3">Shaping the <span class="font-Display font-normal">Future <br> with UAE</span> Vision 2031</h1>
+        <h1 class="text-4xl lg:text-7xl font-Open text-center text-white font-bold mb-3">Shaping the <span class="font-Display font-normal">Future <br> with UAE</span> Vision 2031</h1>
         <p class="text-white text-center ">In alignment with the UAE’s ambitious roadmap, we’re committed to building a future rooted <br> in innovation, sustainability, and global leadership.</p>
       </div>
-      <div class="flex justify-between items-center mb-20">
-        <div class="relative w-32 min-h-[400px] bg-[url('../img/future-img-1.png')] bg-cover bg-center rounded-md">
+      <div class="flex flex-col lg:flex-row space-y-5 items-center mb-20 lg:space-x-5 lg:space-y-0">
+        <div class="relative w-full min-h-[400px] bg-[url('../img/future-img-1.png')] bg-cover bg-center rounded-md lg:w-32">
           <div class="absolute inset-0 bg-[#4A6F9FCC]/80 z-0 rounded-md"></div>
-          <div class="relative z-10 py-10 px-8 flex flex-col space-y-36">
+          <div class="relative z-10 py-10 px-8 h-[400px] flex flex-col justify-between">
             <div>
               <img src="./img/sub-future-1.png" alt="">
             </div>
@@ -312,9 +340,9 @@
             </div>
           </div>
         </div>
-        <div class="relative w-32 min-h-[400px] bg-[url('../img/future-img-2.png')] bg-cover bg-center rounded-md">
+        <div class="relative w-full min-h-[400px] bg-[url('../img/future-img-2.png')] bg-cover bg-center rounded-md lg:w-32">
           <div class="absolute inset-0 bg-[#C89F50]/60 z-0 rounded-md"></div>
-            <div class="relative z-10 py-10 px-8 flex flex-col space-y-20">
+            <div class="relative z-10 py-10 px-8 h-[400px] flex flex-col justify-between">
             <div>
               <img src="./img/sub-future-2.png" alt="">
             </div>
@@ -324,9 +352,9 @@
             </div>
           </div>
         </div>
-        <div class="relative w-32 min-h-[400px] bg-[url('../img/future-img-3.png')] bg-cover bg-center rounded-md">
+        <div class="relative w-full min-h-[400px] bg-[url('../img/future-img-3.png')] bg-cover bg-center rounded-md lg:w-32">
           <div class="absolute inset-0 bg-[#93634799]/60 z-0 rounded-md"></div>
-          <div class="relative z-10 py-10 px-8 flex flex-col space-y-36">
+          <div class="relative z-10 py-10 px-8 h-[400px] flex flex-col justify-between">
             <div>
               <img src="./img/sub-future-3.png" alt="">
             </div>
@@ -343,41 +371,41 @@
   <!-- Future Section End -->
 
   <!-- Tech Section Start -->
-  <section class="bg-background py-28">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
+  <section class="bg-background py-28 px-3 xl:px-0">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
       <div class="mb-20">
-        <h1 class="text-7xl font-Open text-center text-white font-bold mb-3">Tech <span class="font-Display font-normal">Stacks</span> we used</h1>
+        <h1 class="lg:text-7xl text-4xl font-Open text-center text-white font-bold mb-3">Tech <span class="font-Display font-normal">Stacks</span> we used</h1>
         <p class="text-white text-center ">Our team of AngularJS development expert will utilize Anulgar toolset to build the <br> most suitable development, that not only meet your business.</p>
       </div>
       <div class="flex justify-between flex-wrap items-center space-y-5 mb-20">
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-1.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-2.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-3.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-4.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-5.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-6.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-7.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-8.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-9.png" alt="">
         </div>
-        <div class="bg-background-light w-19 h-48 flex items-center justify-center rounded-md">
+        <div class="bg-background-light w-48 h-48 flex items-center justify-center rounded-md sm:w-24 lg:w-19">
           <img src="./img/Tech-img-10.png" alt="">
         </div>
       </div>
@@ -387,15 +415,15 @@
   <!-- Tech Section End -->
 
   <!-- AI Section Start -->
-  <section class="bg-background pb-28">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
+  <section class="bg-background pb-28 px-3 xl:px-0">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
       <div class="text-white flex justify-between items-center mb-20">
         <div>
-          <h1 class="text-7xl font-bold font-Open mb-2">We’ve been <br>
+          <h1 class="lg:text-7xl text-4xl font-bold font-Open mb-2">We’ve been <br>
             <span class="font-Display">there & solved</span></h1>
           <p class="text-gray-300">UX is not a recipe. Each sector has different behavior, language, flow, and <br> expectations. At Musemind, we deliver experiences that understand</p>
         </div>
-        <div class="flex space-x-5">
+        <div class="space-x-5 hidden md:flex">
           <div class="border border-white w-10 h-10 text-center leading-10 rounded-full cursor-pointer hover:bg-blue-500 hover:border-blue-500">
             <i class="fa-solid fa-arrow-left"></i>
           </div>
@@ -446,13 +474,13 @@
 
   <!-- Cleints Section Start -->
   <section class="bg-background">
-    <div class="bg-background-second py-28 rounded-4xl">
-      <div class="w-container mx-auto lg:container lg:mx-auto">
+    <div class="bg-background-second py-28 rounded-4xl px-3 xl:px-0">
+      <div class="xl:w-container xl:mx-auto container mx-auto">
         <div class="mb-20">
-          <h1 class="text-7xl text-white font-Open font-bold text-center">What <span class="font-Display">Clients Say About</span> <br> Our Expertise</h1>
+          <h1 class="text-4xl lg:text-7xl text-white font-Open font-bold text-center">What <span class="font-Display">Clients Say About</span> <br> Our Expertise</h1>
         </div>
-        <div class="flex justify-between items-center space-x-20 relative">
-          <div class="flex flex-col space-y-5">
+        <div class="flex flex-col lg:flex lg:flex-row lg:justify-between">
+          <div class="flex flex-row lg:flex-col space-x-3 space-y-5 lg:space-x-0 lg:w-1/5">
             <div>
               <img src="./img/client-img-1.png" alt="">
             </div>
@@ -463,7 +491,7 @@
               <img src="./img/client-img-3.png" alt="">
             </div>
           </div>
-          <div class="bg-background-light/50 text-white p-14 rounded-2xl z-10">
+          <div class="bg-background-light/50 text-white p-5 rounded-2xl z-10 relative lg:w-9/12 lg:p-14">
             <div class="mb-20">
               <h4 class="text-3xl text-white font-bold font-Open leading-10 mb-5">Musemind truly exceeded our expectations. Their designs were not only visually stunning but also incredibly intuitive</h4>
               <p class="text-white">Our Custom Web App Development services revolve around the agile development process. With this approach, our skilled developers work in tandem.</p>
@@ -483,8 +511,8 @@
                 </div>
               </div>
             </div>
+            <i class="fa-solid fa-quote-left text-white/60 text-9xl absolute top-5 right-30 z-0"></i>
           </div>
-          <i class="fa-solid fa-quote-left text-white/60 text-9xl absolute top-5 right-30 z-0"></i>
         </div>
       </div>
     </div>
@@ -492,19 +520,19 @@
   <!-- Cleints Section End -->
 
   <!-- Blog Section Start -->
-  <section class="bg-background py-28">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
-      <div class="flex justify-between items-center mb-20">
-        <div>
-          <h1 class="text-7xl text-white font-Open font-bold mb-4">Our <span class="font-Display">Latest</span> Blog</h1>
+  <section class="bg-background py-28 px-3 xl:px-0">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
+      <div class="md:flex md:justify-between md:items-center mb-20">
+        <div class="mb-5">
+          <h1 class="text-4xl lg:text-7xl text-white font-Open font-bold mb-4">Our <span class="font-Display">Latest</span> Blog</h1>
           <p class="font-Open text-white">From initial concept, to interface design and product development we craft <br> high-end platforms for outstanding digital experiences.</p>
         </div>
         <button class="py-2 px-7 text-white bg-button-color border border-button-color rounded-full cursor-pointer hover:bg-transparent hover:text-button-color">
         Explore Blogs <i class="fa-solid fa-arrow-right ml-2"></i>
         </button>
       </div>
-      <div class="flex justify-between">
-        <div class="w-48">
+      <div class="flex flex-col space-y-10 sm:flex-row sm:space-x-10 sm:space-y-0">
+        <div class="w-full sm:w-48">
           <img class="rounded-3xl w-full" src="./img/blog-img-1.png" alt="">
           <div class="mt-5">
             <button class="text-xs py-1 px-3 text-white border border-gray-400 rounded-full mb-3">UI/UX Design</button>
@@ -515,7 +543,7 @@
             </div>
           </div>
         </div>
-        <div class="w-48">
+        <div class="w-full sm:w-48">
           <img class="rounded-3xl w-full" src="./img/blog-img-2.png" alt="">
           <div class="mt-5">
             <button class="text-xs py-1 px-3 text-white border border-gray-400 rounded-full mb-3">UI/UX Design</button>
@@ -534,34 +562,57 @@
   <!-- Global Section Start -->
   <section class="relative min-h-screen bg-[url('../img/global-bg.png')] bg-cover bg-center py-28">
     <div class="absolute inset-0 bg-gradient-to-t from-[#091030]/100 to-[#091030]/30 z-0"></div>
-    <div class="w-container mx-auto lg:container lg:mx-auto">
+    <div class="xl:w-container xl:mx-auto container mx-auto px-3 xl:px-0">
       <div class="relative z-10 flex flex-col justify-between items-center mt-40">
         <span class="bg-white/30 py-2 px-4 rounded-full text-white text-sm font-Open">Based on 26 Clutch review</span>
-        <h1 class="text-7xl font-Open text-white font-bold mt-6 mb-16">Fueled Up <span class="font-Display">500+ Brands To <br> Roar With</span> Next-Gentech</h1>
-        <div class=" flex justify-between items-center space-x-20 mb-32">
-          <div>
-            <img src="./img/agency-1.png" alt="">
-          </div>
-          <div>
-            <img src="./img/agency-2.png" alt="">
-          </div>
-          <div>
-            <img src="./img/agency-3.png" alt="">
-          </div>
-          <div>
-            <img src="./img/agency-4.png" alt="">
-          </div>
-          <div>
-            <img src="./img/agency-5.png" alt="">
-          </div>
-          <div>
-            <img src="./img/agency-6.png" alt="">
-          </div>
-          <div>
-            <img src="./img/agency-7.png" alt="">
+        <h1 class="text-4xl lg:text-7xl font-Open text-white font-bold mt-6 mb-16">Fueled Up <span class="font-Display">500+ Brands To <br> Roar With</span> Next-Gentech</h1>
+        <div class="swiper myBrand w-full mb-20">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/agency-1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-4.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-5.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-6.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-7.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-4.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-5.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-6.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/agency-7.png" alt="">
+            </div>
           </div>
         </div>
-        <div class="flex items-center bg-background-light/70 p-10 space-x-8 rounded-full border border-gray-500">
+        <div class="md:flex items-center bg-background-light/70 p-10 space-x-8 rounded-full border border-gray-500 hidden">
           <div>
             <span class="text-sm text-white font-Open font-medium">Our Global Presence </span>
           </div>
@@ -582,6 +633,8 @@
             <span class="text-xl text-white ml-3">Dhaka</span>
           </div>
         </div>
+
+
       </div>
     </div>
   </section>
@@ -589,12 +642,11 @@
 
   <!-- Question Section Start -->
   <section class="py-28 bg-background-second">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
-      <div class="flex text-white">
-        <!-- Left Menu -->
-        <div class="w-1/2">
-          <h1 class="text-7xl text-white font-Open font-bold mb-10">Have <br> <span class="font-Display font-normal">Question</span></h1>
-          <div class="bg-gradient-to-r from-[#6D83E7] to-[#3251D2] max-w-3/5 p-8 rounded-2xl flex flex-col justify-between">
+    <div class="xl:w-container xl:mx-auto container mx-auto px-3 xl:px-0">
+      <div class="flex flex-col lg:flex-row text-white">
+        <div class="lg:w-1/2">
+          <h1 class="text-4xl lg:text-7xl text-white font-Open font-bold mb-10">Have <br> <span class="font-Display font-normal">Question</span></h1>
+          <div class="bg-gradient-to-r from-[#6D83E7] to-[#3251D2] sm:max-w-3/5 p-8 rounded-2xl flex flex-col justify-between">
             <h3 class="text-4xl text-white font-Open mb-20">Get a free <br><span class="font-Display">consulting</span> call <br> with our experts</h3>
             <div class="relative">
               <img class="absolute -top-8 left-5" src="./img/experts-1.png" alt="">
@@ -605,14 +657,11 @@
             </div>
           </div>
         </div>
-        <!-- Right Content -->
-        <div class="w-1/2 py-10 px-6">
-          <!-- Accordion Items -->
+        <div class="lg:w-1/2 py-10 px-6">
           <div class="space-y-4" id="accordion">
-            <!-- Accordion Item Template -->
             <div class="border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
-                <span class="text-2xl font-semibold">What are your focus areas as a UI/UX agency?</span>
+                <span class="text-lg sm:text-2xl font-semibold">What are your focus areas as a UI/UX agency?</span>
                 <span class="text-xl">＋</span>
               </button>
               <div class="mt-2 text-sm text-gray-400 hidden">
@@ -621,7 +670,7 @@
             </div>
             <div class="border-t border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
-                <span class="text-2xl font-semibold">Why is UI/UX design important for your business growth?</span>
+                <span class="text-lg sm:text-2xl font-semibold">Why is UI/UX design important for your business growth?</span>
                 <span class="text-xl">＋</span>
               </button>
               <div class="mt-2 text-sm text-gray-400 hidden">
@@ -630,7 +679,7 @@
             </div>
             <div class="border-t border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
-                <span class="text-2xl font-semibold">Can your UX design agency help us with web design?</span>
+                <span class="text-lg sm:text-2xl font-semibold">Can your UX design agency help us with web design?</span>
                 <span class="text-xl">＋</span>
               </button>
               <div class="mt-2 text-sm text-gray-400 hidden">
@@ -639,7 +688,7 @@
             </div>
             <div class="border-t border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
-                <span class="text-2xl font-semibold">What sets Musemind apart from other top agencies?</span>
+                <span class="text-lg sm:text-2xl font-semibold">What sets Musemind apart from other top agencies?</span>
                 <span class="text-xl">＋</span>
               </button>
               <div class="mt-2 text-sm text-gray-400 hidden">
@@ -648,7 +697,7 @@
             </div>
             <div class="border-t border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
-                <span class="text-2xl font-semibold">What process should I expect from your UX agency?</span>
+                <span class="text-lg sm:text-2xl font-semibold">What process should I expect from your UX agency?</span>
                 <span class="text-xl">＋</span>
               </button>
               <div class="mt-2 text-sm text-gray-400 hidden">
@@ -657,7 +706,7 @@
             </div>
             <div class="border-t border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
-                <span class="text-2xl font-semibold">How much does a UI/UX design project cost?</span>
+                <span class="text-lg sm:text-2xl font-semibold">How much does a UI/UX design project cost?</span>
                 <span class="text-xl">＋</span>
               </button>
               <div class="mt-2 text-sm text-gray-400 hidden">
@@ -666,7 +715,7 @@
             </div>
             <div class="border-t border-b border-white/10 py-3">
               <button class="w-full flex justify-between items-center text-left" onclick="toggleAccordion(this)">
-                <span class="text-2xl font-semibold">What type of branding solution do you offer?</span>
+                <span class="text-lg sm:text-2xl font-semibold">What type of branding solution do you offer?</span>
                 <span class="text-xl">＋</span>
               </button>
               <div class="mt-2 text-sm text-gray-400 hidden">
@@ -681,17 +730,17 @@
   <!-- Question Section End -->
 
   <!-- From Section Start -->
-  <section class="bg-background py-28">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
-      <div class="relative w-full h-[650px] bg-[url('../img/from-bg.png')] rounded-2xl">
+  <section class="bg-background py-28 px-3 xl:px-0">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
+      <div class="relative w-full h-screen lg:h-[650px] bg-[url('../img/from-bg.png')] bg-no-repeat bg-cover bg-center rounded-2xl">
         <div class="absolute inset-0 bg-gradient-to-r from-[#1B3177]/30 to-[#1B2D8B]/100 z-0 rounded-2xl"></div>
-        <div class="relative z-10 text-white flex justify-between p-8">
-          <div class="w-48 relative">
-            <h2 class=" absolute bottom-10 left-5 text-5xl text-white font-Open font-medium">Have a <span class="font-Display">project idea <br> in mind?</span> Let's get <br> started</h2>
+        <div class="relative z-10 text-white flex flex-col lg:flex-row p-4 md:p-8">
+          <div class="lg:w-48 relative">
+            <h2 class="text-4xl lg:text-5xl text-white font-Open font-medium lg:absolute lg:bottom-10 lg:left-10">Have a <span class="font-Display">project idea <br> in mind?</span> Let's get <br> started</h2>
           </div>
-          <div class="w-48 bg-white text-black p-8 rounded-2xl">
-            <h2 class="text-background text-5xl font-Open font-medium">We’re <span class="font-Display">thrilled <br> to hear</span> from you!</h2>
-            <form action="" class="mt-36">
+          <div class="lg:w-48 mt-10 bg-white text-black p-4 md:p-8 rounded-2xl">
+            <h2 class="text-background text-4xl lg:text-5xl font-Open font-medium">We’re <span class="font-Display">thrilled <br> to hear</span> from you!</h2>
+            <form action="" class="mt-20">
               <div class="flex space-x-7">
                 <input type="text" placeholder="Full Name" class="text-background text-base font-medium border-b border-b-gray-300 outline-0 w-48 pb-2">
                 <input type="email" placeholder="Email*" class="text-background text-base font-medium border-b border-b-gray-300 outline-0 w-48 pb-2">
@@ -709,14 +758,14 @@
   <!-- From Section End -->
 
   <!-- Footer Section Start -->
-  <footer class="bg-gradient-to-b from-[#0c1033] via-[#0c1446] to-[#142d75] text-white py-28">
-    <div class="w-container mx-auto lg:container lg:mx-auto">
+  <footer class="bg-gradient-to-b from-[#0c1033] via-[#0c1446] to-[#142d75] text-white pt-28 pb-20 px-3 xl:px-0">
+    <div class="xl:w-container xl:mx-auto container mx-auto">
       <div class="w-full text-center pb-20 border-b border-b-gray-600">
         <img class="w-full" src="./img/footer-logo.png" alt="">
       </div>
-      <div class="my-20 flex justify-between space-x-6">
-        <div>
-          <h3 class="text-xl text-white">Design</h3>
+      <div class="my-20 flex flex-col sm:flex-row sm:flex-wrap space-y-10">
+        <div class="sm:w-1/2 md:w-32 xl:max-w-1/5">
+          <h3 class="text-2xl text-white">Design</h3>
           <ul class="mt-4">
             <li class="mb-3 text-white hover:text-hover-color">Responsive website design</li>
             <li class="mb-3 text-white hover:text-hover-color">Custom web Design</li>
@@ -725,8 +774,8 @@
             <li class="text-white hover:text-hover-color">UI/UX design</li>
           </ul>
         </div>
-        <div>
-          <h3 class="text-xl text-white">Development</h3>
+        <div class="sm:w-1/2 md:w-32 xl:max-w-1/5">
+          <h3 class="text-2xl text-white">Development</h3>
           <ul class="mt-4">
             <li class="mb-3 text-white hover:text-hover-color">Pwa Development</li>
             <li class="mb-3 text-white hover:text-hover-color">Drupal Development</li>
@@ -736,8 +785,8 @@
             <li class="text-white hover:text-hover-color">Webflow Development</li>
           </ul>
         </div>
-        <div>
-          <h3 class="text-xl text-white">E-Commerce</h3>
+        <div class="sm:w-1/2 md:w-32 xl:max-w-1/5">
+          <h3 class="text-2xl text-white">E-Commerce</h3>
           <ul class="mt-4">
             <li class="mb-3 text-white hover:text-hover-color">E-Commerce Development</li>
             <li class="mb-3 text-white hover:text-hover-color">Magento Web</li>
@@ -745,8 +794,8 @@
             <li class="text-white hover:text-hover-color">Shopify ecommerce </li>
           </ul>
         </div>
-        <div>
-          <h3 class="text-xl text-white">Marketing</h3>
+        <div class="sm:w-1/2 md:w-32 xl:max-w-1/5">
+          <h3 class="text-2xl text-white">Marketing</h3>
           <ul class="mt-4">
             <li class="mb-3 text-white hover:text-hover-color">Digital marketing</li>
             <li class="mb-3 text-white hover:text-hover-color">Social media marketing</li>
@@ -754,8 +803,8 @@
             <li class="text-white hover:text-hover-color">Pay per click marketing</li>
           </ul>
         </div>
-        <div>
-          <h3 class="text-xl text-white">Branding</h3>
+        <div class="sm:w-1/2 md:w-32 xl:max-w-1/5">
+          <h3 class="text-2xl text-white">Branding</h3>
           <ul class="mt-4">
             <li class="mb-3 text-white hover:text-hover-color">Branding agency</li>
             <li class="mb-3 text-white hover:text-hover-color">Logo design</li>
@@ -764,9 +813,9 @@
           </ul>
         </div>
       </div>
-      <div class="flex justify-between">
+      <div class="md:flex md:justify-between">
         <div>
-          <div class="mb-10 flex items-center space-x-3">
+          <div class="mb-10 flex items-center space-x-3 text-center">
             <div class="w-10 h-10 leading-10 text-center bg-background/50 rounded-full cursor-pointer hover:bg-hover-color">
               <i class="fa-solid fa-arrow-down"></i>
             </div>
@@ -785,7 +834,7 @@
         </div>
         <div>
           <div class="mb-10">
-            <ul class="flex space-x-5 items-center">
+            <ul class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-5">
               <li><a class="hover:text-hover-color" href="#">About</a></li>
               <li><a class="hover:text-hover-color" href="#">Contact</a></li>
               <li><a class="hover:text-hover-color" href="#">Help</a></li>
@@ -794,7 +843,7 @@
               <li><a class="hover:text-hover-color" href="#">Terms & Condition</a></li>
             </ul>
           </div>
-          <p class="text-right">© 2021-2025, Musemind Agency, All Rights Reserved.</p>
+          <p class="text-left md:text-right">© 2021-2025, Musemind Agency, All Rights Reserved.</p>
         </div>
       </div>
     </div>
@@ -806,3 +855,9 @@
   <script src="./script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
